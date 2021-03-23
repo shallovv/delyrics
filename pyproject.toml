@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "delyrics"
+version = "0.1.0"
+description = "Delete lyrics if mp3, mp4 and m4a"
+authors = ["shallovv <miomio.ll.8507@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mutagen = "^1.45.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
