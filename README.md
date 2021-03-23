@@ -25,7 +25,7 @@ $ pip uninstall delyrics
 ## Usage
 
 ```Shell
-$ delyrics --help
+$ python3 -m delyrics --help
 usage: delyrics.py [-h] [--mp3 MP3] [--mp4 MP4] [-f FOLDER]
 
 Delete lyrics of mp3, mp4 and m4a
