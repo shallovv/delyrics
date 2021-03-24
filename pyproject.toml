@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "delyrics"
 version = "0.1.1"
-description = "Delete lyrics if mp3, mp4 and m4a"
+description = "Delete lyrics of mp3, mp4 and m4a"
 authors = ["shallovv <miomio.ll.8507@gmail.com>"]
 license = "MIT"
 readme = "README.md"
