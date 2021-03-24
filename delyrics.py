@@ -57,7 +57,7 @@ def main(args):
             all_mp3(args.folder)
             all_mp4(args.folder)
         else:
-            print('[Error] ' + args.folder + ' is nor found')
+            print('[Error] ' + args.folder + ' is not found')
             sys.exit(1)
 
 if __name__ == '__main__':

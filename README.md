@@ -1,6 +1,6 @@
 # delyrics
 
-Delete lyrics mp3, mp4 and m4a.
+Delete lyrics of mp3, mp4 and m4a.
 
 ## Install 
 
