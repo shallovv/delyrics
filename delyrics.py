@@ -47,7 +47,8 @@ def parse_args():
     args = parser.parse_args()
     return args
 
-def main(args):
+def main():
+    args = parse_args()
     if args.mp3 != None:
         delete_lyrics_of_mp3(args.mp3)
     if args.mp4 != None:
@@ -61,4 +62,4 @@ def main(args):
             sys.exit(1)
 
 if __name__ == '__main__':
-    main(parse_args())
+    main()

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "delyrics"
-version = "0.1.1"
+version = "0.1.2"
 description = "Delete lyrics of mp3, mp4 and m4a"
 authors = ["shallovv <miomio.ll.8507@gmail.com>"]
 license = "MIT"
@@ -11,6 +11,9 @@ python = "^3.9"
 mutagen = "^1.45.1"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+delyrics = 'delyrics:main'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
