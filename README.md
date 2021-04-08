@@ -7,13 +7,13 @@ Delete lyrics of mp3, mp4 and m4a.
 http
 
 ```Shell
-$ pip install --user git+https://github.com/shallovv/delyrics.git
+$ pip install git+https://github.com/shallovv/delyrics.git
 ```
 
 ssh
 
 ```Shell
-$ pip install --user git+ssh://git@github.com/shallovv/delyrics.git
+$ pip install git+ssh://git@github.com/shallovv/delyrics.git
 ```
 
 ## Uninstall
@@ -25,7 +25,7 @@ $ pip uninstall delyrics
 ## Usage
 
 ```Shell
-$ python3 -m delyrics --help
+$ delyrics --help
 usage: delyrics.py [-h] [--mp3 MP3] [--mp4 MP4] [-f FOLDER]
 
 Delete lyrics of mp3, mp4 and m4a
